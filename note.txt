@@ -1,0 +1,1 @@
+>>> UPDATE EXPO: npm install -g eas-cli 

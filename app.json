@@ -13,16 +13,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.peacexv.nolify",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "859e6c0d-02f9-4ea7-b9d7-252580a11c1a"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/859e6c0d-02f9-4ea7-b9d7-252580a11c1a"
     }
   }
 }
